@@ -1,8 +1,6 @@
+--Função Java Oracle
 select valueHash('helloa') from dual;   --1220935217
 select valueHash('12345678') from dual; --1861353340
-select * from all_source  where UPPER(text) like '%VALUEHASH%';
-select * from all_source  where NAME ='ValueHash';
-select * from all_source  where NAME ='VALUEHASH';
 
 --Exemplo de hash em PLSQL
 declare
