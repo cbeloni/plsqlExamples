@@ -4,8 +4,6 @@ select * from all_source  where UPPER(text) like '%VALUEHASH%';
 select * from all_source  where NAME ='ValueHash';
 select * from all_source  where NAME ='VALUEHASH';
 
-select * from bko_apoio_6880;
-
 --Exemplo de hash em PLSQL
 declare
 v_palavra varchar2(10) := '12345678';
